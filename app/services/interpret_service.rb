@@ -10,6 +10,7 @@ class InterpretService
     when "help"
       HelpService.call()
     else
+      console.log(action)
       "Não compreendi o seu desejo"
     end
   end
